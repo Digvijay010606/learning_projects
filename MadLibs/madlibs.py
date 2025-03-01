@@ -9,7 +9,6 @@ st.set_page_config(
 
 # adding title with a image
 st.title("Welcome to")
-st.image("logo.png")
 
 
 # taking inputs from the user
