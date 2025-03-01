@@ -8,8 +8,8 @@ st.set_page_config(
     )
 
 # adding title with a image
-st.title("Welcome to MadLibs")
-
+st.title("Welcome to")
+st.image("MadLibs/logo.png")
 
 # taking inputs from the user
 noun = st.text_input("Noun",placeholder="Ex:-girl")
