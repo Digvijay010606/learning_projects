@@ -8,7 +8,7 @@ st.set_page_config(
     )
 
 # adding title with a image
-st.title("Welcome to")
+st.title("Welcome to MadLibs")
 
 
 # taking inputs from the user
