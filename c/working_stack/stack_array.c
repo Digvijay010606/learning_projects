@@ -65,13 +65,16 @@ void isFull(){
     }
 }
 
-void stack_run(){
-    int n, val;
+
+
+int main(){
+    int n, val;  // n for selecting operations and val for pushing data
     while(1){
         printf("STACK:\n");
         printf("1. push\n2. pop\n3. peek\n4. isEmpty\n5. isFull\n");
         printf("Enter no.(1 to 5): ");
         scanf("%d", &n);
+        system("cls");
         switch(n){
         case 1:
             printf("Enter value to push: ");
@@ -93,12 +96,10 @@ void stack_run(){
         default:
             printf("please! enter between 1 to 5\n");
         }
+        printf("Type ok and then Press Enter to continue!\n");
+        char continue_loop[100];
+        scanf("%s", continue_loop);
         system("cls");
     }
-}
-
-
-int main(){
-    stack_run();
     return 0;
 }
